@@ -1,7 +1,7 @@
-import react,{Component, component,useContext,useState} from 'react';
+import react,{Component,useContext,useState} from 'react';
 import QuestionCard from '../question-card/question-card.component';
 import './questions.styles.css'
-import Manage from '../../manage/manage.component';
+
 class Questions extends Component
 {
   
@@ -33,7 +33,7 @@ class Questions extends Component
 }
  
   render() {
-    const data = this.state.information
+    const {information} = this.state
 
     return(
       
@@ -41,9 +41,9 @@ class Questions extends Component
 
       {
         
-      data.map((info,index) =>(
+      !!information.length && information.map((info,index) =>(
         
-      <QuestionCard index={index} question={info.question} answerI={info.incorrect_answers} answerC={info.correct_answer} />
+      <QuestionCard key={index} index={index} question={info.question} answerI={info.incorrect_answers} answerC={info.correct_answer} />
     
         ))
       }

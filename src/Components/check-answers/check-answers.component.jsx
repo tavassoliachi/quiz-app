@@ -4,7 +4,6 @@ import './check-answers.styles.css'
 function CheckAns(){
     
     const { gameState, setGameState } = useContext(Manage)
-    console.log("dedassheveci")
     return(<div className='submit'>
         <h1 id='loading'>Loading...</h1>
         <button onClick={()=>{setGameState('end')}}>SUBMIT</button>

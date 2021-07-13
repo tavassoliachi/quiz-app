@@ -10,7 +10,7 @@ function Quiz(){
     return(
     <div className='quiz'>
     <h1 className='quizTitle'>Quiz</h1>
-    <Questions></Questions>
+    <Questions/>
     <CheckAns/>
     </div>
 )
