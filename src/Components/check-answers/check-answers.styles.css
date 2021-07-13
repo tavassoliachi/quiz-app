@@ -1,0 +1,24 @@
+.submit{
+    transform: translateY(-100px);
+}
+.submit button{
+    width: 120px;
+    height: 55px;
+    border-radius: 10px;
+    /* border:1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+.submit button:hover{
+    background-color: white;
+    color: black;
+}
+.submit h1{
+    margin-top: 100px;
+}

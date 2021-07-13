@@ -1,0 +1,13 @@
+.app{
+display: flex;
+}
+h1{
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(0, 0, 0);
+}
+button{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}

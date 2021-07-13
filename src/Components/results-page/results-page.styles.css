@@ -1,0 +1,45 @@
+.results{
+    overflow: hidden;
+}
+.results{
+    width:100%;
+    height: 100vh;
+
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+
+}
+.results h1{
+    color: white;
+    text-align: center;
+    
+    font-size: 70px;
+}
+.results h3{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.results button{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    font-size: 30px;
+    font-weight: 900;
+
+    color: black;
+    background-color: white;
+    border: 0;
+
+}
+.results button:hover{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.quizTitle{
+    /* border-bottom:8px solid black; */
+    height: max-content;
+    text-align: center;
+    width: 100%;
+    outline: black  solid 10px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
